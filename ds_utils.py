@@ -13,9 +13,9 @@ import numpy as np
 import cv2
 import sys
 
-# The script contains all the utility functions that I use for typical data
-# analysis for the kaggle projects. The functions are related to extracting
-# compressed files, performing data cleaning and so on
+## The script contains all the utility functions that I use for typical data
+## analysis for the kaggle projects. The functions are related to extracting
+## compressed files, performing data cleaning and so on
 
 ###############################################################################
 def uncom_tgz(fpath):
