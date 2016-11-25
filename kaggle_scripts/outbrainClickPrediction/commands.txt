@@ -1,0 +1,2 @@
+gcloud compute ssh --zone=us-central1-a --ssh-flag="-D" --ssh-flag="10000" --ssh-flag="-N" "jupytercluster-m"
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "http://jupytercluster-m:8123" --proxy-server="socks5://localhost:10000" --host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE localhost" --user-data-dir=/tmp/
